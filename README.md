@@ -1,4 +1,4 @@
-# D2-TMD
+# D²-TMD
 
 This repository contains the official PyTorch implementation and the quick-test dataset for the manuscript: **"A dynamic decoupling and topology-morphology distillation method for 3D seismic fault identification"** (Submitted to *Computers & Geosciences*).
 
