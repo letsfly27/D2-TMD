@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## 2. Repository Structure
 
 *   `model_student.py` : The core implementation of the lightweight student network architecture (MobileNetV4-3D).
-*   `model.py` : The implementation of the heavy teacher network architecture (GeoLG-3DFaultNet).
+*   `model_teacher.py` : The implementation of the heavy teacher network architecture (GeoLG-3DFaultNet).
 *   `loss_distill.py` : Contains the implementations of the proposed D²-TMD framework, including NSA, POD, and MBC modules.
 *   `inference_distill.py` : The evaluation script for quick testing and generating 3D prediction results.
 *   `visual_distill.py` : The script used to generate high-resolution orthogonal slice visualizations (Inline, Crossline, Time-slice).
@@ -61,16 +61,6 @@ python train_distill.py
 ## 5. Citation
 
 If you find this code or our method useful in your research, please consider citing our paper.
-
-```bibtex
-@article{xuyang2026d2tmd,
-  title={A dynamic decoupling and topology-morphology distillation method for 3D seismic fault identification},
-  author={Xu, Yang and others},
-  journal={Computers & Geosciences},
-  year={2026},
-  publisher={Elsevier}
-}
-```
 
 ## 6. License
 
